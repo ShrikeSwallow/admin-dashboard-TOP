@@ -87,4 +87,34 @@ header {
 
 main {
   grid-column-start: 2;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.your-projects {
+  grid-row-start: span 2;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.your-projects > h2 {
+  grid-column-start: span 2;
+}
+
+.project {
+  display: grid;
+}
+
+.icons {
+  display: grid;
+  justify-items: end;
+}
+
+.icons ul {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  /* justify-items: end; */
 }
