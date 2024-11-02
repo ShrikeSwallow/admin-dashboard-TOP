@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
@@ -13,7 +19,10 @@
   <body>
     <div class="container">
       <aside>
-        <h1>Dashboard</h1>
+        <h1>
+          <span class="material-symbols-outlined">dashboard</span>
+          Dashboard
+        </h1>
         <ul class="tabs">
           <li>
             <span class="material-symbols-outlined">home</span>
@@ -67,120 +76,124 @@
             placeholder="Search..."
           />
         </div>
-        <ul class="profile">
-          <li><span class="material-symbols-outlined">notifications</span></li>
-          <li><img src="" alt="Profile Pic" /></li>
-          <li>Full Name</li>
-        </ul>
+        <p class="profile">
+          <span class="material-symbols-outlined">notifications</span>
+          <img src="./images/PFP.jpg" alt="Profile Pic" />
+          Full Name
+        </p>
         <div class="greeting">
-          <img src="" alt="Profile Pic" />
+          <img src="./images/PFP.jpg" alt="Profile Pic" />
           <p>Hi there,</p>
           <h2>Full Name (@handle)</h2>
         </div>
         <ul class="actions">
-          <li>New</li>
-          <li>Upload</li>
-          <li>Share</li>
+          <li><button type="button">New</button></li>
+          <li><button type="button">Upload</button></li>
+          <li><button type="button">Share</button></li>
         </ul>
       </header>
       <main>
         <div class="your-projects">
           <h2>Your projects</h2>
-          <div class="project">
-            <h3>Super Cool Project</h3>
-            <p>
-              Sed quis fermentum velit. Curabitur id quam id nibh ultricies
-              ultricies id a magna. Nunc condimentum massa et urna viverra.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+          <div class="projects">
+            <div class="project">
+              <h3>Super Cool Project</h3>
+              <p>
+                Sed quis fermentum velit. Curabitur id quam id nibh ultricies
+                ultricies id a magna. Nunc condimentum massa et urna viverra.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <h3>Less Cool Project</h3>
-            <p>
-              Aenean mi velit, mollis id odio quis, euismod sollicitudin risus.
-              Aenean tellus ex, lacinia ut iaculis et, feugiat sit amet.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+            <div class="project">
+              <h3>Less Cool Project</h3>
+              <p>
+                Aenean mi velit, mollis id odio quis, euismod sollicitudin
+                risus. Aenean tellus ex, lacinia ut iaculis et, feugiat sit
+                amet. Integer auctor erat quam, quis porta justo vehicula vitae.
+                Ut blandit in urna quis dignissim. Nunc et nisl eget felis.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <h3>Impossible App</h3>
-            <p>
-              Integer eu velit a velit molestie bibendum ut a odio. Proin orci
-              tellus, consequat a tristique eget, vulputate non risus.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+            <div class="project">
+              <h3>Impossible App</h3>
+              <p>
+                Integer eu velit a velit molestie bibendum ut a odio. Proin orci
+                tellus, consequat a tristique eget, vulputate non risus.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <h3>Easy Peasy App</h3>
-            <p>
-              Nunc sollicitudin mi molestie luctus iaculis. Praesent turpis
-              quam, luctus sed est id, interdum rutrum arcu. Fusce vitae
-              elementum ipsum.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+            <div class="project">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Nunc sollicitudin mi molestie luctus iaculis. Praesent turpis
+                quam, luctus sed est id, interdum rutrum arcu. Fusce vitae
+                elementum ipsum.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <h3>Ad Blocker</h3>
-            <p>
-              Integer auctor erat quam, quis porta justo vehicula vitae. Ut
-              blandit in urna quis dignissim. Nunc et nisl eget felis.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+            <div class="project">
+              <h3>Ad Blocker</h3>
+              <p>
+                Integer auctor erat quam, quis porta justo vehicula vitae. Ut
+                blandit in urna quis dignissim. Nunc et nisl eget felis.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="project">
-            <h3>Money Maker</h3>
-            <p>
-              Duis purus tellus, laoreet vitae ullamcorper in, tempus eget mi.
-              Duis elit lacus, convallis a tristique in, convallis et nisi.
-            </p>
-            <div class="icons">
-              <ul>
-                <li><span class="material-symbols-outlined">star</span></li>
-                <li>
-                  <span class="material-symbols-outlined">visibility</span>
-                </li>
-                <li><span class="material-symbols-outlined">share</span></li>
-              </ul>
+            <div class="project">
+              <h3>Money Maker</h3>
+              <p>
+                Duis purus tellus, laoreet vitae ullamcorper in, tempus eget mi.
+                Duis elit lacus, convallis a tristique in, convallis et nisi.
+              </p>
+              <div class="icons">
+                <ul>
+                  <li><span class="material-symbols-outlined">star</span></li>
+                  <li>
+                    <span class="material-symbols-outlined">visibility</span>
+                  </li>
+                  <li><span class="material-symbols-outlined">share</span></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -216,22 +229,34 @@
           <h2>Trending</h2>
           <div class="trending">
             <div class="influencer">
-              <img src="" alt="" />
+              <img
+                src="./images/raguvarasan-ambikapathi-p5lDYaK217A-unsplash.jpg"
+                alt=""
+              />
               <h3>@handle1</h3>
               <p>World Peace Builder</p>
             </div>
             <div class="influencer">
-              <img src="" alt="" />
+              <img
+                src="./images/roman-skrypnyk-lyTb8S7WnvE-unsplash.jpg"
+                alt=""
+              />
               <h3>@handle2</h3>
               <p>Super Cool Project</p>
             </div>
             <div class="influencer">
-              <img src="" alt="" />
+              <img
+                src="./images/stanley-shashi-Pm_926lM-xI-unsplash.jpg"
+                alt=""
+              />
               <h3>@handle3</h3>
               <p>Life Changing App</p>
             </div>
             <div class="influencer">
-              <img src="" alt="" />
+              <img
+                src="./images/vadim-bogulov-ny8xTcs17VI-unsplash.jpg"
+                alt=""
+              />
               <h3>@handle4</h3>
               <p>No Traffic Maker</p>
             </div>
